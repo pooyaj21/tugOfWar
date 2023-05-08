@@ -31,20 +31,20 @@ void drawRope() {
   }
 }
 
-void keyTyped() {
-  if ( keyPressed && key == 'a') {
+void keyReleased() {
+  if ( key == 'a') {
     background(0);
     linePosition-=10;
   }
-  if ( keyPressed && key == 'l') {
+  if (key == 'l') {
     background(0);
     linePosition+=10;
   }
-  if ( keyPressed && key == 'A') {
+  if ( key == 'A') {
     background(0);
     linePosition-=10;
   }
-  if ( keyPressed && key == 'L') {
+  if (key == 'L') {
     background(0);
     linePosition+=10;
   }
