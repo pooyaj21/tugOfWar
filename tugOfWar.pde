@@ -54,7 +54,7 @@ void drawSide() {
 void drawRope() {
 
   for (int ropePosition=-80; ropePosition<80; ropePosition++) {
-    noFill();
+    fill(150);
     strokeWeight(10);
     stroke(255);
     pushMatrix();
